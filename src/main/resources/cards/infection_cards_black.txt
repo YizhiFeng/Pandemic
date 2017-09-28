@@ -1,0 +1,74 @@
+[
+    {
+        "name" : "Baghdad",
+        "type" : 3,
+        "color" : 4,
+        "population" : 0 
+    },
+    {
+        "name" : "Moscow",
+        "type" : 3,
+        "color" : 4,
+        "population" : 0 
+    },
+    {
+        "name" : "Mumbai",
+        "type" : 3,
+        "color" : 4,
+        "population" : 0 
+    },
+    {
+        "name" : "Istanbul",
+        "type" : 3,
+        "color" : 4,
+        "population" : 0 
+    },
+    {
+        "name" : "Riyadh",
+        "type" : 3,
+        "color" : 4,
+        "population" : 0 
+    },
+    {
+        "name" : "Chennai",
+        "type" : 3,
+        "color" : 4,
+        "population" : 0 
+    },
+    {
+        "name" : "Algiers",
+        "type" : 3,
+        "color" : 4,
+        "population" : 0 
+    },
+    {
+        "name" : "Kolkata",
+        "type" : 3,
+        "color" : 4,
+        "population" : 0 
+    },
+    {
+        "name" : "Tehran",
+        "type" : 3,
+        "color" : 4,
+        "population" : 0 
+    },
+    {
+        "name" : "Cairo",
+        "type" : 3,
+        "color" : 4,
+        "population" : 0 
+    },
+    {
+        "name" : "Karachi",
+        "type" : 3,
+        "color" : 4,
+        "population" : 0 
+    },
+    {
+        "name" : "Delhi",
+        "type" : 3,
+        "color" : 4,
+        "population" : 0 
+    }
+]

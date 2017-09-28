@@ -1,0 +1,74 @@
+[
+    {
+        "name" : "Washington",
+        "type" : 4,
+        "color" : 3,
+        "population" : 4679000
+    },
+    {
+        "name" : "Madrid",
+        "type" : 4,
+        "color" : 3,
+        "population" : 5427000
+    },
+    {
+        "name" : "Milan",
+        "type" : 4,
+        "color" : 3,
+        "population" : 5232000
+    },
+    {
+        "name" : "London",
+        "type" : 4,
+        "color" : 3,
+        "population" : 8586000
+    },
+    {
+        "name" : "Chicago",
+        "type" : 4,
+        "color" : 3,
+        "population" : 9121000 
+    },
+    {
+        "name" : "St. Petersburg",
+        "type" : 4,
+        "color" : 3,
+        "population" : 4879000 
+    },
+    {
+        "name" : "Paris",
+        "type" : 4,
+        "color" : 3,
+        "population" : 107555000 
+    },
+    {
+        "name" : "San Francisco",
+        "type" : 4,
+        "color" : 3,
+        "population" : 5864000 
+    },
+    {
+        "name" : "Atlanta",
+        "type" : 4,
+        "color" : 3,
+        "population" : 4715000 
+    },
+    {
+        "name" : "Essen",
+        "type" : 4,
+        "color" : 3,
+        "population" : 575000
+    },
+    {
+        "name" : "Montreal",
+        "type" : 4,
+        "color" : 3,
+        "population" : 3429000
+    },
+    {
+        "name" : "New York",
+        "type" : 4,
+        "color" : 3,
+        "population" : 20464000
+    }
+]

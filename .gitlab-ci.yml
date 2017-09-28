@@ -1,0 +1,9 @@
+stages:
+  - build
+
+build:
+  stage: build
+  script:
+    - gradle build
+  tags:
+    - gradle      # Matches the tags you created for your runner

@@ -1,0 +1,74 @@
+[
+    {
+        "name" : "Sydney",
+        "type" : 3,
+        "color" : 2,
+        "population" : 0 
+    },
+    {
+        "name" : "Bangkok",
+        "type" : 3,
+        "color" : 2,
+        "population" : 0 
+    },
+    {
+        "name" : "Manila",
+        "type" : 3,
+        "color" : 2,
+        "population" : 0 
+    },
+    {
+        "name" : "Jakarta",
+        "type" : 3,
+        "color" : 2,
+        "population" : 0 
+    },
+    {
+        "name" : "Osaka",
+        "type" : 3,
+        "color" : 2,
+        "population" : 0 
+    },
+    {
+        "name" : "Tokyo",
+        "type" : 3,
+        "color" : 2,
+        "population" : 0 
+    },
+    {
+        "name" : "Shanghai",
+        "type" : 3,
+        "color" : 2,
+        "population" : 0 
+    },
+    {
+        "name" : "Taipei",
+        "type" : 3,
+        "color" : 2,
+        "population" : 0 
+    },
+    {
+        "name" : "Seoul",
+        "type" : 3,
+        "color" : 2,
+        "population" : 0 
+    },
+    {
+        "name" : "Hong Kong",
+        "type" : 3,
+        "color" : 2,
+        "population" : 0 
+    },
+    {
+        "name" : "Beijing",
+        "type" : 3,
+        "color" : 2,
+        "population" : 0 
+    },
+    {
+        "name" : "Ho Chi Minh City",
+        "type" : 3,
+        "color" : 2,
+        "population" : 0 
+    }
+]

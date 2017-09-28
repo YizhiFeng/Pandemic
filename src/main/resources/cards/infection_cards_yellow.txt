@@ -1,0 +1,74 @@
+[
+    {
+        "name" : "Khartoum",
+        "type" : 3,
+        "color" : 1,
+        "population" : 0 
+    },
+    {
+        "name" : "Lagos",
+        "type" : 3,
+        "color" : 1,
+        "population" : 0 
+    },
+    {
+        "name" : "Miami",
+        "type" : 3,
+        "color" : 1,
+        "population" : 0 
+    },
+    {
+        "name" : "Johannesburg",
+        "type" : 3,
+        "color" : 1,
+        "population" : 0 
+    },
+    {
+        "name" : "Los Angeles",
+        "type" : 3,
+        "color" : 1,
+        "population" : 0 
+    },
+    {
+        "name" : "Sao Paulo",
+        "type" : 3,
+        "color" : 1,
+        "population" : 0 
+    },
+    {
+        "name" : "Buenos Aires",
+        "type" : 3,
+        "color" : 1,
+        "population" : 0 
+    },
+    {
+        "name" : "Bogota",
+        "type" : 3,
+        "color" : 1,
+        "population" : 0 
+    },
+    {
+        "name" : "Mexico City",
+        "type" : 3,
+        "color" : 1,
+        "population" : 0 
+    },
+    {
+        "name" : "Santiago",
+        "type" : 3,
+        "color" : 1,
+        "population" : 0 
+    },
+    {
+        "name" : "Lima",
+        "type" : 3,
+        "color" : 1,
+        "population" : 0 
+    },
+    {
+        "name" : "Kinshasa",
+        "type" : 3,
+        "color" : 1,
+        "population" : 0 
+    }
+]

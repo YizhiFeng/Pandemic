@@ -1,0 +1,68 @@
+Pandemic Team Code Inspection Process
+
+Logistics
+	1. A formal code inspection will be done prior to merges into the master branch.
+	
+	2. Someone who did not do the majority of the work on the feature branch will be randomly selected to moderate the code inspection. 
+	    One team member will be responsible for taking notes during the inspection.
+	
+	3. Ideally everyone will be present at an inspection. If there is a circumstance that prevents a member from showing up, notes will be available on Slack 
+	    for all team members to view.
+	
+Criteria
+	4. Key Code Smells to look for
+		-Names that do not accurately describe the funtions / variables
+		-Names that do not follow the team's naming convention
+		
+		-All functions should perform a single responsiblility
+		-Functions should be at the same level of abstraction
+		-Functions with similar methods should be refactored if possible
+		
+		-Comments should be explaining an intention, warning, or clarifying expectations
+		-Comments should be meaningful, and should not need explanation themselves
+		-If a comment is found the team should consider attempting to refactor the code to remove the need for the comment
+		
+		-Similar functions should be placed together
+		-Functions should be placed above anything they call if possible
+		-All code should pass the checkstyle test with the exception of the import of assert.* in JUnit tests
+		-Checkstyle should be ran frequently about after every 8-10 commits
+		-FindBugs should be ran frequently about after every 8-10 commits
+		
+		-Objects should maintain internal security and not reveal implementation details
+		-Data Structures may reveal internal fields with no getters and setters if desired
+		-Any chain of calls will be analyized for potential trainwrecks and removed if needed
+		
+		-Exceptions, where possible, should extend runtime exception
+		-We will avoid checked exceptions as much as possible
+		-The passing or returning of null is forbidden
+		-Error codes will not be used
+		
+		-Unit Tests wills test a single concept
+		-Unit Tests will conform to the same standards as production code
+		-Unit Tests must be self-verifiable and not need user confirmation
+		
+		-Classes should have a single reason to change
+		-Classes should be as small as possible
+		-If a large class is found, we will look at it closer to see if we can split it
+		-Classes should be as cohesive as possible
+		-Similar classes should be grouped under an interface or abstract class to prevent code duplication
+		
+		-Tests will be written before production code
+		-Mocking will be used as much as possible to test dependencies
+		-Tests should exhibit use Boundary Value Analyisis
+		-Tests should be automatic and self-verifiable where possible
+		-Each test will test a single concept
+	
+	5. The criteria will be split into two sections. Two members of the team will be assigned to each section to help prevent the chance of one person missing something. 
+	
+Scope
+	6. Each file will be inspected at some point. Prior to merges, every file that was opened will be inspected. 
+	    Older files may be inspected if we suspect that it shares concepts with another. 
+	
+	7. Each team member will be expected to look at every file. If a team member misses a code inspection, they are expected to review the file and post any notes on Slack.
+	
+Tools
+	8. Checkstyle and FindBugs will be used to help automate inspections before and during formal inspections.
+	
+	9. Human intervention will be neccessary to verify the useful of comments, names,
+	organization of methods, possible Law of Demeter violations, and violations of the single responsiblility principle. 

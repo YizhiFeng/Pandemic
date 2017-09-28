@@ -1,0 +1,32 @@
+[
+    {
+        "name" : "Forecast",
+        "type" : 2,
+        "color" : 0,
+        "population" : 0 
+    },
+    {
+        "name" : "Resilient Population",
+        "type" : 2,
+        "color" : 0,
+        "population" : 0 
+    },
+    {
+        "name" : "Government Grant",
+        "type" : 2,
+        "color" : 0,
+        "population" : 0 
+    },
+    {
+        "name" : "One Quiet Night",
+        "type" : 2,
+        "color" : 0,
+        "population" : 0 
+    },
+    {
+        "name" : "Airlift",
+        "type" : 2,
+        "color" : 0,
+        "population" : 0 
+    }   
+]

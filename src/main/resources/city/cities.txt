@@ -1,0 +1,242 @@
+[
+    {
+        "name" : "Baghdad",
+        "color" : 4,
+        "adjacent" : ["Istanbul","Cairo","Riyadh","Karachi","Tehran"]
+    },
+    {
+        "name" : "Moscow",
+        "color" : 4,
+        "adjacent" : ["Istanbul","Tehran","St. Petersburg"]
+    },
+    {
+        "name" : "Mumbai",
+        "color" : 4,
+        "adjacent" : ["Karachi","Delhi","Chennai"]
+    },
+    {
+        "name" : "Istanbul",
+        "color" : 4,
+        "adjacent" : ["Baghdad","Cairo","Moscow","Algiers","Milan","St. Petersburg"]
+    },
+    {
+        "name" : "Riyadh",
+        "color" : 4,
+        "adjacent" : ["Cairo","Baghdad","Karachi"]
+    },
+    {
+        "name" : "Chennai",
+        "color" : 4,
+        "adjacent" : ["Mumbai","Delhi","Kolkata","Bangkok","Jakarta"]
+    },
+    {
+        "name" : "Algiers",
+        "color" : 4,
+        "adjacent" : ["Istanbul","Cairo","Paris","Madrid"]
+    },
+    {
+        "name" : "Kolkata",
+        "color" : 4,
+        "adjacent" : ["Delhi","Chennai","Bangkok","Hong Kong"]
+    },
+    {
+        "name" : "Tehran",
+        "color" : 4,
+        "adjacent" : ["Moscow","Baghdad","Karachi","Delhi"]
+    },
+    {
+        "name" : "Cairo",
+        "color" : 4,
+        "adjacent" : ["Istanbul","Algiers","Riyadh","Baghdad","Khartoum"]
+    },
+    {
+        "name" : "Karachi",
+        "color" : 4,
+        "adjacent" : ["Baghdad","Riyadh","Delhi","Tehran","Mumbai"]
+    },
+    {
+        "name" : "Delhi",
+        "color" : 4,
+        "adjacent" : ["Tehran","Karachi","Mumbai","Chennai","Kolkata"]
+    },
+    {
+        "name" : "Washington",
+        "color" : 3,
+        "adjacent" : ["New York","Montreal","Atlanta","Miami"] 
+    },
+    {
+        "name" : "Madrid",
+        "color" : 3,
+        "adjacent" : ["New York","London","Paris","Sao Paulo","Algiers"] 
+    },
+    {
+        "name" : "Milan",
+        "color" : 3,
+        "adjacent" : ["Essen","Paris","Istanbul"] 
+    },
+    {
+        "name" : "London",
+        "color" : 3,
+        "adjacent" : ["New York", "Madrid", "Paris", "Essen"] 
+    },
+    {
+        "name" : "Chicago",
+        "color" : 3,
+        "adjacent" : ["San Francisco", "Atlanta", "Mexico City", "Montreal", "Los Angeles"] 
+    },
+    {
+        "name" : "St. Petersburg",
+        "color" : 3,
+        "adjacent" : ["Essen", "Istanbul", "Moscow"] 
+    },
+    {
+        "name" : "Paris",
+        "color" : 3,
+        "adjacent" : ["London", "Essen", "Milan", "Algiers", "Madrid"] 
+    },
+    {
+        "name" : "San Francisco",
+        "color" : 3,
+        "adjacent" : ["Tokyo", "Manila", "Los Angeles", "Chicago"] 
+    },
+    {
+        "name" : "Atlanta",
+        "color" : 3,
+        "adjacent" : ["Chicago", "Washington", "Miami"] 
+    },
+    {
+        "name" : "Essen",
+        "color" : 3,
+        "adjacent" : ["London", "St. Petersburg", "Milan", "Paris"] 
+    },
+    {
+        "name" : "Montreal",
+        "color" : 3,
+        "adjacent" : ["Chicago", "New York", "Washington"] 
+    },
+    {
+        "name" : "New York",
+        "color" : 3,
+        "adjacent" : ["Montreal", "Washington", "London", "Madrid"]
+    },
+    {
+        "name" : "Sydney",
+        "color" : 2,
+        "adjacent" : ["Los Angeles", "Manila", "Jakarta"] 
+    },
+    {
+        "name" : "Bangkok",
+        "color" : 2,
+        "adjacent" : ["Kolkata", "Chennai", "Jakarta", "Ho Chi Minh City", "Hong Kong"] 
+    },
+    {
+        "name" : "Manila",  
+        "color" : 2,
+        "adjacent" : ["Ho Chi Minh City", "Sydney", "San Francisco", "Hong Kong", "Taipei"] 
+    },
+    {
+        "name" : "Jakarta", 
+        "color" : 2,
+        "adjacent" : ["Chennai", "Bangkok", "Ho Chi Minh City", "Sydney"] 
+    },
+    {
+        "name" : "Osaka",   
+        "color" : 2,
+        "adjacent" : ["Taipei", "Tokyo"] 
+    },
+    {
+        "name" : "Tokyo",       
+        "color" : 2,
+        "adjacent" : ["Seoul", "Shanghai", "Osaka", "San Francisco"] 
+    },
+    {
+        "name" : "Shanghai",        
+        "color" : 2,
+        "adjacent" : ["Beijing", "Seoul", "Tokyo", "Taipei", "Hong Kong"] 
+    },
+    {
+        "name" : "Taipei",      
+        "color" : 2,
+        "adjacent" : ["Shanghai", "Osaka", "Hong Kong", "Manila"] 
+    },
+    {
+        "name" : "Seoul",
+        "color" : 2,
+        "adjacent" : ["Beijing", "Shanghai", "Tokyo"] 
+    },
+    {
+        "name" : "Hong Kong",
+        "color" : 2,
+        "adjacent" : ["Shanghai", "Taipei", "Manila", "Ho Chi Minh City", "Bangkok", "Kolkata"] 
+    },
+    {
+        "name" : "Beijing",
+        "color" : 2,
+        "adjacent" : ["Seoul", "Shanghai"] 
+    },
+    {
+        "name" : "Ho Chi Minh City",
+        "color" : 2,
+        "adjacent" : ["Bangkok", "Hong Kong", "Manila", "Jakarta"] 
+    },
+    {
+        "name" : "Khartoum",
+        "color" : 1,
+        "adjacent" : ["Cairo", "Lagos", "Kinshasa", "Johannesburg"] 
+    },
+    {
+        "name" : "Lagos",
+        "color" : 1,
+        "adjacent" : ["Khartoum", "Kinshasa", "Sao Paulo"] 
+    },
+    {
+        "name" : "Miami",
+        "color" : 1,
+        "adjacent" : ["Washington", "Atlanta", "Mexico City", "Bogota"] 
+    },
+    {
+        "name" : "Johannesburg",
+        "color" : 1,
+        "adjacent" : ["Kinshasa", "Khartoum"] 
+    },
+    {
+        "name" : "Los Angeles",
+        "color" : 1,
+        "adjacent" : ["San Francisco", "Sydney", "Chicago", "Mexico City"] 
+    },
+    {
+        "name" : "Sao Paulo",
+        "color" : 1,
+        "adjacent" : ["Lagos", "Madrid", "Bogota", "Buenos Aires"] 
+    },
+    {
+        "name" : "Buenos Aires",
+        "color" : 1,
+        "adjacent" : ["Bogota", "Sao Paulo"] 
+    },
+    {
+        "name" : "Bogota",
+        "color" : 1,
+        "adjacent" : ["Miami", "Mexico City", "Lima", "Buenos Aires", "Sao Paulo"] 
+    },
+    {
+        "name" : "Mexico City",
+        "color" : 1,
+        "adjacent" : ["Los Angeles", "Chicago", "Miami", "Bogota", "Lima"] 
+    },
+    {
+        "name" : "Santiago",
+        "color" : 1,
+        "adjacent" : ["Lima"] 
+    },
+    {
+        "name" : "Lima",
+        "color" : 1,
+        "adjacent" : ["Mexico City", "Bogota", "Santiago"] 
+    },
+    {
+        "name" : "Kinshasa",
+        "color" : 1,
+        "adjacent" : ["Lagos", "Johannesburg", "Khartoum"] 
+    }
+]
