@@ -1,5 +1,5 @@
 <h1>Pandemic</h1>
-The goal of this project is to recreate the board game Pandemic using Java. 
+The goal of this project is to recreate the board game Pandemic using Java and Test-Driven Development. 
 <h2>Definition of Done</h2>
 We will know that we are done with this project when the following conditions are met.
 <h3>Player Actions</h3>
